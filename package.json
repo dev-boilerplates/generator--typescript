@@ -7,7 +7,6 @@
     "@typescript-eslint/parser": "^2.26.0",
     "babel-eslint": "^9.0.0",
     "browser-sync": "latest",
-    "buble": "latest",
     "cpy-cli": "latest",
     "enzyme": "^3.11.0",
     "enzyme-to-json": "^3.3.4",
@@ -59,11 +58,11 @@
     "build:css": "stylus --compress -u nib stylus/style.styl -o stylus/style.css",
     "postbuild:css": "purifycss stylus/style.css public/*.html --info --out public/style.css",
     "compile:templates": "pug html/components -o js/templates/",
-    "compile:pages": "pug html/views -H -o public/",
-    "lint": "eslint . --fix"
+    "compile:pages": "pug html/views -H -o public/"
   },
   "dependencies": {
     "fg-loadcss": "latest",
-    "vue": "latest"
+    "vue": "latest",
+    "rxjs": "latest"
   }
 }

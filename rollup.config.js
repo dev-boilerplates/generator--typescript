@@ -1,7 +1,7 @@
-import typescript from "rollup-plugin-typescript"
-import commonjs from "rollup-plugin-commonjs"
-import resolve from "rollup-plugin-node-resolve"
-import replace from "rollup-plugin-replace"
+import typescript from "r@ollup/plugin-typescript"
+import commonjs from "@rollup/plugin-commonjs"
+import resolve from "@rollup/plugin-node-resolve"
+import replace from "@rollup/plugin-replace"
 import html from "rollup-plugin-html"
 import json from "rollup-plugin-json"
 
